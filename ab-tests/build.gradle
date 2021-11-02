@@ -1,0 +1,19 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.4.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0'
+    implementation 'org.netbeans.external:org-apache-commons-io:RELEASE113'
+    implementation 'org.slf4j:slf4j-jdk14:1.7.25'
+}
+
+test {
+    useTestNG()
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.netbeans.external:org-apache-commons-io:RELEASE113">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.netbeans.external/org-apache-commons-io/RELEASE113/815893df5f31da2ece4040fe0a12fd44b577afaf/org-apache-commons-io-RELEASE113.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.netbeans.external/org-apache-commons-io/RELEASE113/6101b32fcf8a8e1d15efda1f88a4aac19d3c726b/org-apache-commons-io-RELEASE113-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
