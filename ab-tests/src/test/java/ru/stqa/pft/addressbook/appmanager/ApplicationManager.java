@@ -1,7 +1,6 @@
 package ru.stqa.pft.addressbook.appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -40,15 +39,6 @@ public class ApplicationManager {
     }
   }
 
-  public boolean isAlertPresent() {
-    try {
-      wd.switchTo().alert();
-      return true;
-    } catch (NoAlertPresentException e) {
-      return false;
-    }
-  }
-
   public void fillContactForm(ContactData contactData) {
     wd.findElement(By.name("firstname")).click();
     wd.findElement(By.name("firstname")).clear();
@@ -69,10 +59,6 @@ public class ApplicationManager {
 
   public void submitContactCreation() {
     wd.findElement(By.name("submit")).click();
-  }
-
-  public void returnToHomePage() {
-    wd.findElement(By.linkText("home page")).click();
   }
 
   public GroupHelper getGroupHelper() {
